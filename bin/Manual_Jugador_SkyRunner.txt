@@ -1,0 +1,68 @@
+Manual del Jugador — Sky Runner: Carrera en las Nubes
+
+Cómo iniciar
+- Abre `SkyRunner.jar` o ejecuta `Main` para compilar y arrancar el juego.
+- En el menú principal, elige Mundo y Dificultad, ajusta Volumen y Tamaño, y presiona “Iniciar Juego”.
+
+Objetivo
+- Pilota tu nave a través de niveles con obstáculos y enemigos.
+- Llega a la meta con la mayor puntuación posible evitando perder todas tus vidas.
+
+Controles
+- Flechas: mover la nave (arriba/abajo/izquierda/derecha)
+- Espacio: disparar
+- ESC: pausar/continuar
+
+Mecánicas de vidas y daño
+- Tienes 3 vidas por nivel.
+- Cada golpe recibido quita 1 vida directamente (el escudo bloquea un golpe y se consume).
+- Game Over cuando tus vidas llegan a 0.
+
+Barra de vida y HUD
+- Barra pequeña sobre la nave (Aero): 3 segmentos.
+  - Cada golpe apaga un segmento.
+  - Color por vidas restantes: Verde (3), Amarillo (2), Rojo (1).
+- Barra grande del HUD: segmentada en 3, sincronizada con tus vidas.
+
+Puntuación
+- Suma puntos por distancia recorrida.
+- Sumas puntos extra por esquivar obstáculos (+10 por obstáculo evitado).
+
+Power‑Ups
+- Turbo: aumenta tu velocidad por tiempo limitado.
+- Estrella (Score Boost): otorga bonus de puntuación.
+- Escudo: absorbe un golpe sin gastar una vida.
+- Vida extra: añade una vida y restablece salud al máximo.
+
+Enemigos
+- Todos comparten apariencia visual (nave roja), pero cambian sus estadísticas.
+- Resistencia típica a disparos del jugador:
+  - Básico: 2 disparos
+
+Obstáculos y peligros
+- Torres de roca: bloquean el paso y dañan.
+- Tormentas eléctricas: castigan si entras en su zona.
+- Turbinas: realentizan y desestabilizan el vuelo.
+
+Mundos
+- Reino de las Nubes (Cloud Kingdom)
+- Cañón de Cristal (Crystal Canyon)
+- Ciudad Flotante (Floating City)
+
+Configuración (Menú)
+- Mundo: selecciona el mundo de inicio.
+- Dificultad: Normal o Difícil.
+- Música: siempre activa; ajusta el volumen con el deslizador.
+- Tamaño de ventana: 100%, 125%, 150%, 200%.
+
+Consejos
+- Evita colisiones: cada golpe cuesta una vida.
+- Usa el turbo para escapar de zonas densas y recuperar ritmo.
+- Recoge el escudo antes de secciones difíciles.
+- Dispara desde media distancia para eliminar enemigos sin arriesgar la nave.
+- Mantente en movimiento vertical para esquivar balas y obstáculos.
+
+Problemas comunes
+- No se escucha música: verifica que `sounds/Ultimate-Battle.wav` exista para el primer mundo.
+- Fallos al iniciar: asegúrate de tener Java JDK 21 (o compatible) instalado.
+- Si la ventana se ve muy grande/pequeña: ajusta el “Tamaño de ventana” en el menú.
